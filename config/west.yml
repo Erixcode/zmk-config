@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-cygnus-4x6
+      url: https://github.com/juhakaup/zmk-cygnus-4x6
+      revision: main
+      path: modules/zmk-cygnus-4x6
   self:
     path: config
